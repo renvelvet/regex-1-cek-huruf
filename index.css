@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: helvetica;
+  margin-top: 60px;
+  font-family: "Balsamiq Sans", cursive;
+}
+.cek-huruf {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+#instruction {
+  font-size: 22px;
+}
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+  display: inline-block;
+}
+input[type="button"] {
+  background: rgb(119, 155, 231);
+  color: white;
+}
+img {
+  display: inline;
+  border-radius: 50%;
+  width: 200px;
+}
+#output {
+  background: plum;
+}
